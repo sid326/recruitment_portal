@@ -1,2 +1,2 @@
 # recruitment_portal
-recruitment project
+recruitment project for webarch group
