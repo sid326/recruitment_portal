@@ -1,0 +1,70 @@
+<html>
+  <head>
+     <title> welcome to Linkzone</title>
+	 
+	         <script type="text/javascript">
+			 <!--
+
+	/*	<!--	 function validate()
+{
+   if( document.myForm.name.value == "" )
+   {
+     alert( "Please provide your name!" );
+     document.myForm.name.focus() ;
+     return false;
+   }
+
+   
+   
+   if( document.myForm.p.value == "" )
+   {
+     alert( "Please provide your password!" );
+     document.myForm.p.focus() ;
+     return false;
+   }
+   
+      
+   if( document.myForm.randm.value == "" )
+   {
+     alert( "Please provide the capatcha !" );
+     document.myForm.p.focus() ;
+     return false;
+   }
+ 
+    
+ return( true );
+}
+-->
+    </script>
+  </head>
+     <body  >
+	 
+				<h1><font color="white"></font></h1>
+				<b>LOG IN </b>
+				<h1> <form action="login.php" method='POST' name="myForm" >
+   <td align="right">
+   <table cellspacing="20" cellpadding="2" border="1">
+ <tr>
+   <td align="right"><font color="black"><b>User_id</b></font></td>
+   <td><input type="text" name="reg_no" pattern="^[a-zA-Z0-9]+$" /></td>
+ </tr>
+	
+  <tr>
+   <td align="right"><font color="black"><b>Password</b></font></td>
+   <td><input type="password" name="password" /></td>
+   <!--pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}"-->
+ </tr>
+  
+   <tr>
+   <td align="right"><font color="black"><b>Capatcha</b></font></td>
+   <td><input type="text" name="randm"></td> <td><image src="image1.php"><br/></td>
+ </tr>
+  
+<tr>
+<td><b><input type="submit" name="login" value="log in....."/></b></td>
+</tr>
+ </table>
+</form>
+
+	 </body>
+</html>
