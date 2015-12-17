@@ -3,7 +3,7 @@ class Database{
 	private $db_host = "localhost";  // Change as required
 	private $db_user = "root";  // Change as required
 	private $db_pass = "";  // Change as required
-	private $db_name = "portal";	// Change as required
+	private $db_name = "test";	// Change as required
 	private $con = false; // Check to see if the connection is active
 	private $result = array(); // Any results from a query will be stored here
     private $myQuery = "";// used for debugging process with SQL return
